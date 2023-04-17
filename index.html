@@ -41,33 +41,31 @@
             </div>
         </div>
         <div id="slider">
-            <img id="slider_img" src="./assets/img/Image 1.png" alt="ảnh silder">
+            <img class="slider_img row" src="./assets/img/Image 1.png" alt="ảnh silder">
             <div id="slider_content">
                 <h2 id="slider_content-title">Gift for your skin</h2>
                 <p id="slider_content-text">Aliquip fugiat ipsum nostrud ex et eu incididunt quis minim dolore excepteur voluptate</p>
             </div>
         </div>
         <div id="container">
-            <div id="container_nav">
-                <div id="container_subnav">
-                    <ul id="container_subnav-btn">
-                        <li class="container_subnav-btn--item"><a href="">All products</a></li>
-                        <li class="container_subnav-btn--item"><a href="">Face</a></li>
-                        <li class="container_subnav-btn--item"><a href="">Body</a></li>
-                    </ul>
-                    <div id="container_subnav-searchsort">
-                        <div id="container_subnav-search">
+            <div class="container_subnav row">
+                    <div class="container_subnav-btn col-md-6">
+                            <button type="button" class="btn btn-success ">All products</button>
+                            <button type="button" class="btn btn-success ">Face</button>
+                            <button type="button" class="btn btn-success ">Body</button>
+                    </div>
+                    <div class="container_subnav-searchsort row col-md-6">
+                        <div class="container_subnav-search col-md-6">
                             <p id="container_subnav-search--icon"><i class="fa-solid fa-magnifying-glass"></i></p>
                             <input type="search" name="search" class="input_search text-font14" value="Search product...">
                         </div>
-                        <div id="container_subnav-sort">
+                        <div class="container_subnav-sort col-md-6">
                             <a href="" id="container_subnav-sort--text">Sort by</a>
                             <p id="container_subnav-sort--icon"><i class="fa-solid fa-caret-down"></i></p>
                         </div>
                     </div>
-
-                </div>
-                <div id="container_product">
+            </div>
+            <div id="container_product">
                     <div class="grid">
                         <div class="grid__row">
                             <div class="grid__column-3">
@@ -304,7 +302,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
         <div id="footer">
