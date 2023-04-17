@@ -173,35 +173,23 @@ html{
     justify-content: space-between;
 }
 
-#container_subnav-btn li {
-    padding: 0 70px;
-    border-right: 1px solid var(--textsub-color);
-    list-style-type: none;
-    display: inline-block;
-}
 
-.container_subnav-btn--item a {
-    color: var(--textsub-color);
-    font-size: 14px;
-    text-decoration: none;
-}
-.container_subnav-btn--item a:first-child {
-}
-
-#container_subnav-btn li:first-child {
-    font-weight: 420;
-    border-radius: 4px;
-    padding: 18px 45px;
-    background-color: var(--textsub-color);
-}
-
-#container_subnav-btn li:first-child a {
-    color: #fff;
-}
 
 #container_subnav-searchsort {
     display: flex;
     align-items: center;
+}
+
+#container_subnav-btn {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container_subnav-btn>li {
+    list-style-type: none;
+    display: inline-block;
 }
 
 #container_subnav-search {
